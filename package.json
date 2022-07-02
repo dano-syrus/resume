@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "author": "dano",
+  "version": "1.0.0",
+  "description": "Dano's personel portfolio",
+  "main": "index.js",
+  "type": "commonjs",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "production": "npx parcel index.html",
+    "dev": "npx parcel index.html"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "daisyui": "^2.17.0",
+    "parcel": "^2.6.2"
+  }
+}
