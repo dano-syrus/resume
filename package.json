@@ -3,7 +3,6 @@
   "author": "dano",
   "version": "1.0.0",
   "description": "Dano's personel portfolio",
-  "main": "index.js",
   "type": "commonjs",
   "license": "ISC",
   "private": true,
