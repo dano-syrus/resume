@@ -1,7 +1,7 @@
-document.onkeydown = function(event) {
+document.onkeydown = (event) => {
     return false;
 };
 
-document.addEventListener("contextmenu", event => event.preventDefault());
-
-particlesJS.load("particles-js", "./src/scripts/particles.json");
+document.addEventListener("contextmenu", async (event) => {
+    event.preventDefault();
+});
