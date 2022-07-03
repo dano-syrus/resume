@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="darkx">
+<html lang="en" data-theme="darkx" class="scroll-smooth">
 
 <head>
     <title>Dano | Portfolio</title>
@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <div class="md:container md:mx-auto navbar rounded-lg">
+
+    <div class="navbar md:container md:mx-auto text-base-content rounded-lg">
         <div class="navbar-start">
             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                 <div class="rounded-full ring ring-primary w-40 rounded-full">
@@ -22,7 +23,7 @@
         </div>
         <div class="navbar-end">
             <label class="swap swap-rotate">
-                <input type="checkbox" />
+                <input type="checkbox" class="base-bg-primary" />
                 <svg class="swap-on fill-current w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
                         d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
@@ -36,10 +37,9 @@
     </div>
 
     <div id="about" class="md:container md:mx-auto grid h-screen place-items-center">
-        <div class="hero min-h-screen pb-56">
+        <div class="hero sm:min-h-screen md:min-h-screen pb-56">
             <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="./src/assets/avatar.jpg"
-                    class="max-w-sm rounded-lg shadow-2xl transition duration-500 hover:scale-125" />
+                <img src="./src/assets/avatar.jpg" class="md:max-w-md md:h-auto rounded-lg " />
                 <div>
                     <h1 class="text-7xl font-bold text-white" style="font-family:'sofia-pro', sans-serif;">Hi, I’m Dano.
                     </h1>
@@ -61,9 +61,9 @@
 
     <footer class="footer footer-center p-4 fixed bottom-0 text-base-content">
         <div class="md:container md:mx-auto">
-            <p style="font-family: 'sofia-pro', sans-serif;">Find an issue
-                with this page? <a class="link-secondary" href="https://github.com/dano235/dano235.github.io">Fix it on
-                    GitHub</a><br>Site created with <a class="link-secondary" href="https://daisyui.com/">DaisyUI</a>
+            <p style="font-family: 'sofia-pro', sans-serif;">Find an issue with this page? <a class="link-secondary"
+                    href="https://github.com/dano235/Portfolio">Fix it on GitHub</a>. Site created with <a
+                    class="link-secondary" href="https://daisyui.com/">DaisyUI</a>
                 and <a class="link-secondary" href="https://tailwindcss.com/">TailwindCSS</a> by <a
                     class="link-secondary" href="https://github.com/dano235">Dano</a></p>
         </div>
