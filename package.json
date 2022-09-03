@@ -7,7 +7,7 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "production": "npx parcel index.html",
+    "production": "npx parcel index.html --omit=dev",
     "dev": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
   },
   "devDependencies": {
